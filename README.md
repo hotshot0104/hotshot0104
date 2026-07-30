@@ -60,20 +60,8 @@ goals:
 
 <div align="center">
 
-<a href="https://github.com/hotshot0104/PSIT-student-buddy">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=hotshot0104&repo=PSIT-student-buddy&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=ff9e64&text_color=a9b1d6" alt="PSIT-student-buddy" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/hotshot0104/smart-attendance-system">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=hotshot0104&repo=smart-attendance-system&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=ff9e64&text_color=a9b1d6" alt="smart-attendance-system" />
-</a>
-
 <a href="https://github.com/hotshot0104/students-best-buddy">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=hotshot0104&repo=students-best-buddy&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=ff9e64&text_color=a9b1d6" alt="students-best-buddy" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/hotshot0104/mini-project-">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=hotshot0104&repo=mini-project-&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=ff9e64&text_color=a9b1d6" alt="mini-project-" />
 </a>
 
 </div>
