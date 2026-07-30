@@ -44,9 +44,9 @@ goals:
 ## Currently Working On
 
 ```text
->> Data Science -- Exploratory Data Analysis & ML projects
+>> Agentic Student Helpdesk -- building an AI-powered automated assistant for students
 >> 100 Days of DSA Challenge -- solving problems daily in Java
->> Student Buddy & Attendance Systems -- building Python applications
+>> Data Science & ML -- Exploratory Data Analysis & intelligent systems
 >> Open Source -- looking for beginner-friendly repos to contribute to
 ```
 
