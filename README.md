@@ -61,7 +61,7 @@ goals:
 <div align="center">
 
 <a href="https://github.com/hotshot0104/students-best-buddy">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=hotshot0104&repo=students-best-buddy&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=ff9e64&text_color=a9b1d6" alt="students-best-buddy" />
+  <img src="https://img.shields.io/badge/Featured%20Project-students--best--buddy-7aa2f7?style=for-the-badge&logo=github&logoColor=white" alt="students-best-buddy" />
 </a>
 
 </div>
@@ -127,17 +127,7 @@ goals:
 ## GitHub Stats
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=hotshot0104&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=7aa2f7&text_color=a9b1d6&count_private=true&include_all_commits=true" alt="GitHub Stats" height="180"/>
-&nbsp;&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hotshot0104&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&text_color=a9b1d6&langs_count=8" alt="Top Languages" height="180"/>
-
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hotshot0104&theme=tokyonight&hide_border=true&background=0d1117&stroke=7aa2f7&ring=7aa2f7&fire=ff9e64&currStreakLabel=a9b1d6&sideLabels=a9b1d6&dates=565f89" alt="GitHub Streak Stats" />
+  <img src="https://streak-stats.demolab.com/?user=hotshot0104&theme=tokyonight&hide_border=true&background=0d1117&stroke=7aa2f7&ring=7aa2f7&fire=ff9e64&currStreakLabel=a9b1d6&sideLabels=a9b1d6&dates=565f89" alt="GitHub Streak Stats" />
 </div>
 
 <br/>
