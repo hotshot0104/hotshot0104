@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- Dynamic Waving Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:24283b&height=220&section=header&text=Sameer&fontSize=75&fontColor=a9b1d6&fontAlignY=35&desc=Student%20%7C%20Data%20Science%20%7C%20DSA%20in%20Java%20%7C%20Frontend%20Dev&descSize=18&descColor=7aa2f7&descAlignY=55&animation=fadeIn" width="100%" alt="Header Banner"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:24283b&height=220&section=header&text=Sameer&fontSize=75&fontColor=a9b1d6&fontAlignY=35&desc=Student%20%7C%20Data%20Science%20%7C%20DSA%20in%20Java&descSize=18&descColor=7aa2f7&descAlignY=55&animation=fadeIn" width="100%" alt="Header Banner"/>
 
 <!-- Typing SVG -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=7AA2F7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Building+with+Code%2C+Learning+by+Doing;Data+Science+%7C+DSA+%7C+Web+Development" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=7AA2F7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Building+with+Code%2C+Learning+by+Doing;Data+Science+%7C+DSA+in+Java" alt="Typing SVG" />
 </a>
 
 </div>
@@ -19,19 +19,19 @@
 ```yaml
 name: Sameer
 location: PSIT, Kanpur
-role: Student & Aspiring Developer
+role: Student & Aspiring Data Scientist
 
 currently_learning:
   - Data Science
   - Data Structures & Algorithms (Java)
 
 building_with:
-  - HTML5 / CSS3 / JavaScript
+  - Python
   - Java
 
 goals:
   - Master DSA problem-solving
-  - Build real-world Data Science projects
+  - Build real-world Data Science & AI projects
   - Contribute to open source
 ```
 
@@ -44,9 +44,9 @@ goals:
 ## Currently Working On
 
 ```text
->> Data Science capstone -- Exploratory Data Analysis on real-world datasets
+>> Data Science -- Exploratory Data Analysis & ML projects
 >> 100 Days of DSA Challenge -- solving problems daily in Java
->> Portfolio Website -- building a personal site with HTML, CSS, and JS
+>> Student Buddy & Attendance Systems -- building Python applications
 >> Open Source -- looking for beginner-friendly repos to contribute to
 ```
 
@@ -60,25 +60,23 @@ goals:
 
 <div align="center">
 
-<a href="https://github.com/hotshot0104/DSA-Java">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=hotshot0104&repo=DSA-Java&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=ff9e64&text_color=a9b1d6" alt="DSA-Java" />
+<a href="https://github.com/hotshot0104/PSIT-student-buddy">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=hotshot0104&repo=PSIT-student-buddy&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=ff9e64&text_color=a9b1d6" alt="PSIT-student-buddy" />
 </a>
 &nbsp;&nbsp;
-<a href="https://github.com/hotshot0104/portfolio">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=hotshot0104&repo=portfolio&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=ff9e64&text_color=a9b1d6" alt="Portfolio" />
+<a href="https://github.com/hotshot0104/smart-attendance-system">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=hotshot0104&repo=smart-attendance-system&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=ff9e64&text_color=a9b1d6" alt="smart-attendance-system" />
 </a>
 
-<a href="https://github.com/hotshot0104/data-science-projects">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=hotshot0104&repo=data-science-projects&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=ff9e64&text_color=a9b1d6" alt="Data Science Projects" />
+<a href="https://github.com/hotshot0104/students-best-buddy">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=hotshot0104&repo=students-best-buddy&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=ff9e64&text_color=a9b1d6" alt="students-best-buddy" />
 </a>
 &nbsp;&nbsp;
-<a href="https://github.com/hotshot0104/web-projects">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=hotshot0104&repo=web-projects&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=ff9e64&text_color=a9b1d6" alt="Web Projects" />
+<a href="https://github.com/hotshot0104/mini-project-">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=hotshot0104&repo=mini-project-&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=ff9e64&text_color=a9b1d6" alt="mini-project-" />
 </a>
 
 </div>
-
-> **Note:** Replace the repo names above with your actual repository names once you create them.
 
 <br/>
 
@@ -103,20 +101,6 @@ goals:
 
 </div>
 
-> **Tip:** Update this table as you progress. Track your solutions in the [DSA-Java](https://github.com/hotshot0104/DSA-Java) repo.
-
-<br/>
-
----
-
-<br/>
-
-## GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=hotshot0104&theme=tokyonight&no-bg=true&no-frame=true&column=7&margin-w=10&margin-h=10" alt="GitHub Trophies" />
-</div>
-
 <br/>
 
 ---
@@ -129,14 +113,8 @@ goals:
 
 ### Languages
 
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-
-### Frontend
-
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
 
 ### Data Science
 
@@ -182,14 +160,6 @@ goals:
 
 <br/>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=YOUR_WAKATIME_USERNAME&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&text_color=a9b1d6&layout=compact" alt="WakaTime Stats" />
-</div>
-
-> **Setup:** Create a free [WakaTime](https://wakatime.com) account, install the VS Code plugin, then replace `YOUR_WAKATIME_USERNAME` above.
-
-<br/>
-
 ---
 
 <br/>
@@ -216,14 +186,6 @@ goals:
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-&nbsp;&nbsp;
-<a href="mailto:YOUR-EMAIL@gmail.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
-&nbsp;&nbsp;
 <a href="https://github.com/hotshot0104" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
