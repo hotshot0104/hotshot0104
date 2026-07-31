@@ -2075,13 +2075,281 @@ html, body, a, button, input, select, textarea, .project-card, .matrix-btn, .ski
   box-shadow: 0 0 10px rgba(88, 101, 242, 0.2);
 }
 
-@media (max-width: 900px) {
+/* ===== COMPREHENSIVE MOBILE & TOUCH RESPONSIVE STYLES ===== */
+
+/* Touch & Mobile Cursor Reset */
+@media (max-width: 768px), (pointer: coarse) {
+  html, body, a, button, input, select, textarea, .project-card, .matrix-btn, .skill-card, .terminal-card {
+    cursor: auto !important;
+  }
+  .cursor-dot, .cursor-ring {
+    display: none !important;
+  }
+}
+
+/* Mobile Header & Fullscreen Navigation Overlay */
+.mobile-nav-header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 40px);
+}
+
+.close-btn {
+  font-size: 22px;
+  color: var(--text-primary);
+  cursor: pointer;
+  padding: 6px 12px;
+  border: 1px solid var(--border-muted);
+  border-radius: 4px;
+  background: var(--bg-card);
+  line-height: 1;
+  transition: all 0.3s ease;
+}
+
+.close-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.mobile-nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 0;
+}
+
+.mobile-nav-list a {
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Media Queries for Responsive Layouts */
+@media (max-width: 968px) {
+  .hero .container {
+    flex-direction: column;
+    text-align: left;
+    gap: 32px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero-right {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .hero-matrix-card {
+    max-width: 100%;
+  }
+
   .contact-hero-grid {
     grid-template-columns: 1fr;
     gap: 36px;
   }
+
   .contact-big-title {
     font-size: 34px;
   }
 }
+
+@media (max-width: 768px) {
+  :root {
+    --section-gap: 64px;
+  }
+
+  .container {
+    padding: 0 18px;
+  }
+
+  .header {
+    padding: 16px 0;
+  }
+
+  .hero {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    min-height: auto;
+  }
+
+  .hero-content h1 {
+    font-size: 24px;
+    line-height: 1.35;
+    margin-bottom: 20px;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .terminal-card {
+    border-radius: 4px;
+  }
+
+  .terminal-header {
+    padding: 10px 14px;
+  }
+
+  .terminal-body {
+    padding: 16px;
+    font-size: 12px;
+  }
+
+  .yaml-line.indent {
+    padding-left: 12px;
+  }
+
+  .hero-matrix-card .matrix-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    padding: 8px 10px;
+  }
+
+  .hero-matrix-card .matrix-label {
+    width: 100%;
+    font-size: 11px;
+  }
+
+  .matrix-footer {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .matrix-btns {
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+  }
+
+  .matrix-btns .matrix-btn {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .modern-skills-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .section-title {
+    margin-bottom: 32px;
+    gap: 12px;
+  }
+
+  .section-title h2 {
+    font-size: 24px;
+  }
+
+  .section-title .line {
+    max-width: 120px;
+  }
+
+  .quote-box {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .quote-box blockquote {
+    font-size: 15px;
+    padding: 20px;
+  }
+
+  .quote-box .quote-author {
+    font-size: 15px;
+    padding: 10px 14px;
+  }
+
+  .contact-big-title {
+    font-size: 26px;
+  }
+
+  .contact-main-email {
+    font-size: 16px;
+    word-break: break-all;
+    margin-bottom: 24px;
+  }
+
+  .contact-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .footer-left .footer-name {
+    font-size: 20px;
+  }
+
+  .footer-left .footer-email {
+    font-size: 14px;
+    word-break: break-all;
+  }
+
+  .footer-left .footer-tagline {
+    font-size: 13px;
+  }
+
+  .footer-right h4 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 14px;
+  }
+
+  .hero-content h1 {
+    font-size: 21px;
+  }
+
+  .section-title h2 {
+    font-size: 20px;
+  }
+
+  .contact-big-title {
+    font-size: 22px;
+  }
+
+  .skill-tags {
+    gap: 6px;
+  }
+
+  .skill-tag {
+    font-size: 11px;
+    padding: 4px 8px;
+  }
+}
+
 
