@@ -1941,11 +1941,34 @@ html, body, a, button, input, select, textarea, .project-card, .matrix-btn, .ski
 /* ===== CONTACT SECTION (Attached Image Style) ===== */
 .contact-hero-grid {
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  gap: 48px;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 40px;
   align-items: start;
   margin-top: 24px;
 }
+
+.contact-terminals-parallel {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  align-items: stretch;
+}
+
+@media (max-width: 1100px) {
+  .contact-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-terminals-parallel {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+
 
 .contact-subtag {
   font-family: var(--font-mono);
