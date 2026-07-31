@@ -579,8 +579,12 @@
             </div>
           </div>
 
-          <!-- Quick Terminal Message Form -->
-          <form class="terminal-card contact-form-card" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+          <!-- Quick Terminal Message Form (Web3Forms API Connected) -->
+          <form id="contact-form" class="terminal-card contact-form-card" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="233b5a01-cf2d-4d78-8dfb-375d2b6a1680">
+            <input type="hidden" name="subject" value="New Portfolio Contact Message for Sameer">
+            <input type="hidden" name="from_name" value="Portfolio Website Contact Form">
+            
             <div class="terminal-header">
               <div class="terminal-dots">
                 <span class="tdot red"></span>
@@ -591,17 +595,18 @@
             </div>
             <div class="terminal-body">
               <div class="form-group">
-                <input type="text" placeholder="Your Name" required>
+                <input type="text" name="name" placeholder="Your Name" required>
               </div>
               <div class="form-group">
-                <input type="email" placeholder="Your Email" required>
+                <input type="email" name="email" placeholder="Your Email" required>
               </div>
               <div class="form-group">
-                <textarea placeholder="Write your message..." rows="4" required></textarea>
+                <textarea name="message" placeholder="Write your message..." rows="4" required></textarea>
               </div>
-              <button type="submit" class="matrix-btn btn-highlight" style="width: 100%; text-align: center; justify-content: center; cursor: none !important;">
+              <button type="submit" id="form-submit-btn" class="matrix-btn btn-highlight" style="width: 100%; text-align: center; justify-content: center;">
                 SEND MESSAGE ↗
               </button>
+              <div id="form-status-msg" style="display: none; margin-top: 14px; font-size: 13px; text-align: center; font-family: var(--font-mono);"></div>
             </div>
           </form>
         </div>
@@ -744,6 +749,58 @@
         }
       });
     });
+
+    // ===== WEB3FORMS ASYNC SUBMISSION =====
+    const contactForm = document.getElementById('contact-form');
+    const formStatusMsg = document.getElementById('form-status-msg');
+    const formSubmitBtn = document.getElementById('form-submit-btn');
+
+    if (contactForm) {
+      contactForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        if (formSubmitBtn) {
+          formSubmitBtn.innerText = 'SENDING...';
+          formSubmitBtn.disabled = true;
+        }
+        if (formStatusMsg) {
+          formStatusMsg.style.display = 'none';
+        }
+
+        try {
+          const formData = new FormData(contactForm);
+          const response = await fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            body: formData
+          });
+          const data = await response.json();
+          if (data.success) {
+            if (formStatusMsg) {
+              formStatusMsg.style.display = 'block';
+              formStatusMsg.style.color = '#43B581';
+              formStatusMsg.innerText = '✓ Message sent successfully! Sameer will get back to you soon.';
+            }
+            contactForm.reset();
+          } else {
+            if (formStatusMsg) {
+              formStatusMsg.style.display = 'block';
+              formStatusMsg.style.color = '#FF5F56';
+              formStatusMsg.innerText = '✕ ' + (data.message || 'Error sending message. Please try again.');
+            }
+          }
+        } catch (err) {
+          if (formStatusMsg) {
+            formStatusMsg.style.display = 'block';
+            formStatusMsg.style.color = '#FF5F56';
+            formStatusMsg.innerText = '✕ Network error. Please try again.';
+          }
+        } finally {
+          if (formSubmitBtn) {
+            formSubmitBtn.innerText = 'SEND MESSAGE ↗';
+            formSubmitBtn.disabled = false;
+          }
+        }
+      });
+    }
   </script>
 
 </body>
