@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sameer Kumar Singh — Aspiring Data Scientist and ML Developer. Building intelligent data-driven applications.">
+  <title>Sameer Kumar Singh | Aspiring Data Scientist</title>
+  <link rel="stylesheet" href="style.css?v=13">
+</head>
+<body>
+
+  <!-- ===== LOADING SCREEN (Image 1 style matching main site theme) ===== -->
+  <div id="loader-screen" class="loader-screen">
+    <div class="loader-content">
+      <div class="loader-bg-initials">SKS</div>
+      <div class="loader-fg-initials">
+        <span class="let-s">S</span><span class="let-k">K</span><span class="let-s2">S</span>
+      </div>
+      <div class="loader-line-container">
+        <div class="loader-line-fill"></div>
+      </div>
+      <div class="loader-subtext">loading</div>
+    </div>
+  </div>
+
+  <!-- ===== CUSTOM CURSOR (Image 2 style - Glitch Free) ===== -->
+  <div id="cursor-dot" class="cursor-dot"></div>
+  <div id="cursor-ring" class="cursor-ring"></div>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="#home" class="logo">
+        <div class="logo-icon"></div>
+        Sameer
+      </a>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#home"><span>#</span>home</a></li>
+          <li><a href="#projects"><span>#</span>projects</a></li>
+          <li><a href="#about"><span>#</span>about-me</a></li>
+          <li><a href="#contacts"><span>#</span>contacts</a></li>
+        </ul>
+      </nav>
+      <div class="burger" id="burger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== MOBILE MENU ===== -->
+  <div class="mobile-nav" id="mobileNav">
+    <div class="mobile-nav-header">
+      <a href="#home" class="logo" onclick="closeMenu()">Sameer</a>
+      <div class="close-btn" onclick="closeMenu()">✕</div>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="#home" onclick="closeMenu()"><span>#</span>home</a></li>
+      <li><a href="#projects" onclick="closeMenu()"><span>#</span>projects</a></li>
+      <li><a href="#about" onclick="closeMenu()"><span>#</span>about-me</a></li>
+      <li><a href="#contacts" onclick="closeMenu()"><span>#</span>contacts</a></li>
+    </ul>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content fade-in">
+        <h1>Sameer Kumar Singh is an <span class="accent">aspiring data scientist</span> & <span class="accent">learning ML</span></h1>
+        <p>Exploring Data Science, Machine Learning, and Data Structures & Algorithms (Java) at PSIT Kanpur</p>
+        
+        <div class="hero-actions">
+          <a href="#contacts" class="btn">Contact me!!</a>
+          <a href="#about" class="btn btn-outline">Explore Profile -></a>
+        </div>
+      </div>
+      
+      <div class="hero-right fade-in delay-2">
+        <!-- Terminal Window Profile Card on Hero Right Side (Matching Image 2 Style) -->
+        <div class="terminal-card hero-matrix-card">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="tdot red"></span>
+              <span class="tdot yellow"></span>
+              <span class="tdot green"></span>
+            </div>
+            <span class="terminal-filename">profile_matrix.yaml</span>
+          </div>
+          <div class="terminal-body">
+            <div class="yaml-line">
+              <span class="yaml-key">name:</span> <span class="yaml-val">Sameer Kumar Singh</span>
+            </div>
+            <div class="yaml-line">
+              <span class="yaml-key">location:</span> <span class="yaml-val">PSIT, Kanpur</span>
+            </div>
+            <div class="yaml-line">
+              <span class="yaml-key">role:</span> <span class="yaml-val">Student &amp; Aspiring Data Scientist</span>
+            </div>
+            <div class="yaml-line">
+              <span class="yaml-key">motto:</span> <span class="yaml-val">Building with code &amp; learning by doing</span>
+            </div>
+            <div class="yaml-line blank"></div>
+            <div class="yaml-line">
+              <span class="yaml-key">currently_learning:</span>
+            </div>
+            <div class="yaml-line indent">
+              <span class="yaml-bullet">-</span> <span class="yaml-str">Data Science &amp; Machine Learning</span>
+            </div>
+            <div class="yaml-line indent">
+              <span class="yaml-bullet">-</span> <span class="yaml-str">Data Structures &amp; Algorithms (Java)</span>
+            </div>
+            <div class="yaml-line blank"></div>
+            <div class="yaml-line">
+              <span class="yaml-key">tech_stack:</span>
+            </div>
+            <div class="yaml-line indent">
+              <span class="yaml-bullet">-</span> <span class="yaml-key">lang:</span> <span class="yaml-str">Python · Java · C · SQL · JS</span>
+            </div>
+            <div class="yaml-line indent">
+              <span class="yaml-bullet">-</span> <span class="yaml-key">ml:</span> <span class="yaml-str">PyTorch · YOLO · TensorFlow · sklearn · Pandas</span>
+            </div>
+            <div class="yaml-line indent">
+              <span class="yaml-bullet">-</span> <span class="yaml-key">backend:</span> <span class="yaml-str">FastAPI · PostgreSQL · Docker</span>
+            </div>
+            <div class="yaml-line indent">
+              <span class="yaml-bullet">-</span> <span class="yaml-key">tools:</span> <span class="yaml-str">Git · Linux · GH Actions</span>
+            </div>
+            <div class="yaml-line blank"></div>
+            <div class="matrix-footer">
+              <span class="matrix-location">📍 26.847°N 80.946°E · PSIT, Kanpur</span>
+              <div class="matrix-btns">
+                <a href="https://github.com/hotshot0104" target="_blank" class="matrix-btn">GITHUB ↗</a>
+                <a href="https://linkedin.com" target="_blank" class="matrix-btn">LINKEDIN ↗</a>
+                <a href="#projects" class="matrix-btn btn-highlight">VIEW WORK</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DUAL OPPOSITE TECH TICKER BANNERS ===== -->
+  <div class="ticker-banner" id="ticker-banner-container">
+    <!-- Top Track: Right to Left -->
+    <div class="ticker-track">
+      <span>PYTORCH</span><span class="ticker-star">✦</span>
+      <span>MACHINE LEARNING</span><span class="ticker-star">✦</span>
+      <span>DATA SCIENCE</span><span class="ticker-star">✦</span>
+      <span>COMPUTER VISION</span><span class="ticker-star">✦</span>
+      <span>DSA (JAVA)</span><span class="ticker-star">✦</span>
+      <span>FASTAPI</span><span class="ticker-star">✦</span>
+      <span>YOLO</span><span class="ticker-star">✦</span>
+      <span>PANDAS</span><span class="ticker-star">✦</span>
+      <span>POSTGRESQL</span><span class="ticker-star">✦</span>
+      <span>DOCKER</span><span class="ticker-star">✦</span>
+      <span>GITHUB ACTIONS</span><span class="ticker-star">✦</span>
+
+      <!-- Duplicate for infinite loop -->
+      <span>PYTORCH</span><span class="ticker-star">✦</span>
+      <span>MACHINE LEARNING</span><span class="ticker-star">✦</span>
+      <span>DATA SCIENCE</span><span class="ticker-star">✦</span>
+      <span>COMPUTER VISION</span><span class="ticker-star">✦</span>
+      <span>DSA (JAVA)</span><span class="ticker-star">✦</span>
+      <span>FASTAPI</span><span class="ticker-star">✦</span>
+      <span>YOLO</span><span class="ticker-star">✦</span>
+      <span>PANDAS</span><span class="ticker-star">✦</span>
+      <span>POSTGRESQL</span><span class="ticker-star">✦</span>
+      <span>DOCKER</span><span class="ticker-star">✦</span>
+      <span>GITHUB ACTIONS</span><span class="ticker-star">✦</span>
+    </div>
+
+    <!-- Bottom Track: Left to Right (Opposite Direction) -->
+    <div class="ticker-track ticker-reverse">
+      <span>SQL &amp; BIG DATA</span><span class="ticker-star">✦</span>
+      <span>TENSORFLOW</span><span class="ticker-star">✦</span>
+      <span>PYTHON 3</span><span class="ticker-star">✦</span>
+      <span>JAVA DSA</span><span class="ticker-star">✦</span>
+      <span>SCIKIT-LEARN</span><span class="ticker-star">✦</span>
+      <span>NUMPY</span><span class="ticker-star">✦</span>
+      <span>OPENCV</span><span class="ticker-star">✦</span>
+      <span>NEURAL NETWORKS</span><span class="ticker-star">✦</span>
+      <span>DEEP LEARNING</span><span class="ticker-star">✦</span>
+      <span>GIT &amp; LINUX</span><span class="ticker-star">✦</span>
+      <span>REST APIS</span><span class="ticker-star">✦</span>
+
+      <!-- Duplicate for infinite loop -->
+      <span>SQL &amp; BIG DATA</span><span class="ticker-star">✦</span>
+      <span>TENSORFLOW</span><span class="ticker-star">✦</span>
+      <span>PYTHON 3</span><span class="ticker-star">✦</span>
+      <span>JAVA DSA</span><span class="ticker-star">✦</span>
+      <span>SCIKIT-LEARN</span><span class="ticker-star">✦</span>
+      <span>NUMPY</span><span class="ticker-star">✦</span>
+      <span>OPENCV</span><span class="ticker-star">✦</span>
+      <span>NEURAL NETWORKS</span><span class="ticker-star">✦</span>
+      <span>DEEP LEARNING</span><span class="ticker-star">✦</span>
+      <span>GIT &amp; LINUX</span><span class="ticker-star">✦</span>
+      <span>REST APIS</span><span class="ticker-star">✦</span>
+    </div>
+  </div>
+
+  <!-- ===== QUOTE ===== -->
+  <section class="container">
+    <div class="quote-box reveal">
+      <blockquote>
+        With great power comes great electricity bill
+      </blockquote>
+      <div class="quote-author">— <span>Dr. Who</span></div>
+      <div style="clear:both"></div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="projects-header">
+        <div class="section-title">
+          <h2><span>#</span>featured-projects</h2>
+          <div class="line"></div>
+        </div>
+        <a href="https://github.com/hotshot0104" target="_blank" class="view-all-link">View GitHub repositories ~~&gt;</a>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1: Smart Attendance System -->
+        <div class="terminal-card project-card reveal">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="tdot red"></span>
+              <span class="tdot yellow"></span>
+              <span class="tdot green"></span>
+            </div>
+            <span class="terminal-filename">smart_attendance_system.py</span>
+          </div>
+          <div class="terminal-card-inner">
+            <div class="card-tech">Python · OpenCV · PyTorch · YOLO · Computer Vision</div>
+            <div class="card-body">
+              <h3>Smart Attendance System</h3>
+              <p>AI-powered computer vision system for real-time facial recognition and automated, contact-free attendance logging.</p>
+              <div class="card-links">
+                <a href="https://github.com/hotshot0104" target="_blank" class="btn-sm">GitHub &lt;~&gt;</a>
+                <a href="https://github.com/hotshot0104" target="_blank" class="btn-sm btn-sm-outline">Repository ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Student Attendance System -->
+        <div class="terminal-card project-card reveal delay-1">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="tdot red"></span>
+              <span class="tdot yellow"></span>
+              <span class="tdot green"></span>
+            </div>
+            <span class="terminal-filename">student_attendance_system.py</span>
+          </div>
+          <div class="terminal-card-inner">
+            <div class="card-tech">Python · SQL · FastAPI · PostgreSQL · Analytics</div>
+            <div class="card-body">
+              <h3>Student Attendance System</h3>
+              <p>Automated database management system for student record tracking, attendance analytics, and automated reporting.</p>
+              <div class="card-links">
+                <a href="https://github.com/hotshot0104" target="_blank" class="btn-sm">GitHub &lt;~&gt;</a>
+                <a href="https://github.com/hotshot0104" target="_blank" class="btn-sm btn-sm-outline">Repository ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Agentic Student Helpdesk -->
+        <div class="terminal-card project-card reveal delay-2">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="tdot red"></span>
+              <span class="tdot yellow"></span>
+              <span class="tdot green"></span>
+            </div>
+            <span class="terminal-filename">agentic_helpdesk_ai.py</span>
+          </div>
+          <div class="terminal-card-inner">
+            <div class="card-tech">Python · FastAPI · LLM · LangChain · AI Assistant</div>
+            <div class="card-body">
+              <h3>Agentic Student Helpdesk</h3>
+              <p>AI-powered automated student helpdesk assistant for resolving campus queries and automating support workflows.</p>
+              <div class="card-links">
+                <a href="https://github.com/hotshot0104" target="_blank" class="btn-sm">GitHub &lt;~&gt;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: 100 Days of DSA (Java) -->
+        <div class="terminal-card project-card reveal delay-3">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="tdot red"></span>
+              <span class="tdot yellow"></span>
+              <span class="tdot green"></span>
+            </div>
+            <span class="terminal-filename">dsa_java_solutions.java</span>
+          </div>
+          <div class="terminal-card-inner">
+            <div class="card-tech">Java · DSA · Algorithms · Data Structures</div>
+            <div class="card-body">
+              <h3>100 Days of DSA in Java</h3>
+              <p>Comprehensive repository of Data Structures & Algorithms solutions solved daily in Java for core CS foundations.</p>
+              <div class="card-links">
+                <a href="https://github.com/hotshot0104" target="_blank" class="btn-sm">GitHub &lt;~&gt;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SMALL PROJECTS ===== -->
+  <section class="projects" id="small-projects">
+    <div class="container">
+      <div class="section-title">
+        <h2><span>#</span>small-projects</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Small Project 1 -->
+        <div class="project-card reveal">
+          <div class="card-tech">Figma</div>
+          <div class="card-body">
+            <h3>Chess pro</h3>
+            <p>Figma landing page about service for viewing chess tournaments</p>
+            <div class="card-links">
+              <a href="#" class="btn-sm">Figma &lt;~&gt;</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Small Project 2 -->
+        <div class="project-card reveal">
+          <div class="card-tech">HTML CSS</div>
+          <div class="card-body">
+            <h3>CSS experiments</h3>
+            <p>Collection of my different little projects in css</p>
+            <div class="card-links">
+              <a href="#" class="btn-sm">Live &lt;~&gt;</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Small Project 3 -->
+        <div class="project-card reveal">
+          <div class="card-tech">Lua NeoVim</div>
+          <div class="card-body">
+            <h3>Web Dev nvim config</h3>
+            <p>Config for neovim perfect for web developer</p>
+            <div class="card-links">
+              <a href="#" class="btn-sm">Github &lt;~&gt;</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Small Project 4 -->
+        <div class="project-card reveal">
+          <div class="card-tech">Figma</div>
+          <div class="card-body">
+            <h3>Crash protect website</h3>
+            <p>Figma template for website about anti-raid, anti-crash discord bot</p>
+            <div class="card-links">
+              <a href="#" class="btn-sm">Figma &lt;~&gt;</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Small Project 5 -->
+        <div class="project-card reveal">
+          <div class="card-tech">VUE CSS JS</div>
+          <div class="card-body">
+            <h3>My blog</h3>
+            <p>Front-end of my future blog website written in vue</p>
+            <div class="card-links">
+              <a href="#" class="btn-sm">Github &lt;~&gt;</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Small Project 6 -->
+        <div class="project-card reveal">
+          <div class="card-tech">Python Quart HTML</div>
+          <div class="card-body">
+            <h3>Ooku</h3>
+            <p>Simple link tracker</p>
+            <div class="card-links">
+              <a href="#" class="btn-sm">Live &lt;~&gt;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-title">
+        <h2><span>#</span>technical-skills</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="skills-content">
+        <div class="skills-grid modern-skills-grid">
+          <!-- Category 1: Machine Learning & Data Science -->
+          <div class="terminal-card skill-card reveal">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="tdot red"></span>
+                <span class="tdot yellow"></span>
+                <span class="tdot green"></span>
+              </div>
+              <span class="terminal-filename">ml_ds_stack.yaml</span>
+            </div>
+            <div class="terminal-card-inner">
+              <div class="skill-card-header">
+                <span class="skill-badge-icon">🧠</span>
+                <h3>Machine Learning &amp; Data Science</h3>
+              </div>
+              <div class="skill-tags">
+                <span class="skill-tag highlight">PyTorch</span>
+                <span class="skill-tag highlight">YOLO</span>
+                <span class="skill-tag">TensorFlow</span>
+                <span class="skill-tag">scikit-learn</span>
+                <span class="skill-tag">Pandas</span>
+                <span class="skill-tag">NumPy</span>
+                <span class="skill-tag">OpenCV</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Languages & Core CS -->
+          <div class="terminal-card skill-card reveal delay-1">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="tdot red"></span>
+                <span class="tdot yellow"></span>
+                <span class="tdot green"></span>
+              </div>
+              <span class="terminal-filename">languages.yaml</span>
+            </div>
+            <div class="terminal-card-inner">
+              <div class="skill-card-header">
+                <span class="skill-badge-icon">💻</span>
+                <h3>Languages &amp; Core CS</h3>
+              </div>
+              <div class="skill-tags">
+                <span class="skill-tag highlight">Python 3</span>
+                <span class="skill-tag highlight">Java (DSA)</span>
+                <span class="skill-tag">C</span>
+                <span class="skill-tag">SQL</span>
+                <span class="skill-tag">HTML / CSS</span>
+                <span class="skill-tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Backend & Databases -->
+          <div class="terminal-card skill-card reveal delay-2">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="tdot red"></span>
+                <span class="tdot yellow"></span>
+                <span class="tdot green"></span>
+              </div>
+              <span class="terminal-filename">backend.yaml</span>
+            </div>
+            <div class="terminal-card-inner">
+              <div class="skill-card-header">
+                <span class="skill-badge-icon">⚡</span>
+                <h3>Backend &amp; Databases</h3>
+              </div>
+              <div class="skill-tags">
+                <span class="skill-tag highlight">FastAPI</span>
+                <span class="skill-tag">PostgreSQL</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">RESTful APIs</span>
+                <span class="skill-tag">SQLite</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 4: Tools & Infrastructure -->
+          <div class="terminal-card skill-card reveal delay-3">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="tdot red"></span>
+                <span class="tdot yellow"></span>
+                <span class="tdot green"></span>
+              </div>
+              <span class="terminal-filename">tools.yaml</span>
+            </div>
+            <div class="terminal-card-inner">
+              <div class="skill-card-header">
+                <span class="skill-badge-icon">🛠️</span>
+                <h3>Tools &amp; Infrastructure</h3>
+              </div>
+              <div class="skill-tags">
+                <span class="skill-tag">Git &amp; GitHub</span>
+                <span class="skill-tag">Linux CLI</span>
+                <span class="skill-tag">GitHub Actions</span>
+                <span class="skill-tag">Jupyter Notebooks</span>
+                <span class="skill-tag">VS Code</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-title">
+        <h2><span>#</span>about-me</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="about-content">
+        <div class="about-text reveal">
+          <h3>Hello, I'm Sameer Kumar Singh!</h3>
+          <p>I'm a student at <strong>PSIT, Kanpur</strong> with a strong passion for <strong>Data Science, Machine Learning</strong>, and core computer science fundamentals like <strong>Data Structures & Algorithms in Java</strong>.</p>
+          <p>I focus on solving real-world problems using data analysis, building predictive models, and engineering reliable backend pipelines with Python and Java.</p>
+          <a href="#contacts" class="btn">Get in touch -></a>
+        </div>
+        
+        <div class="about-visual reveal delay-2">
+          <!-- YAML Terminal Code Card (Image 5 Feature) -->
+          <div class="terminal-card">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="tdot red"></span>
+                <span class="tdot yellow"></span>
+                <span class="tdot green"></span>
+              </div>
+              <span class="terminal-filename">About Me</span>
+            </div>
+            <div class="terminal-body">
+              <div class="yaml-line"><span class="yaml-key">name:</span> <span class="yaml-str">Sameer</span></div>
+              <div class="yaml-line"><span class="yaml-key">location:</span> <span class="yaml-str">PSIT, Kanpur</span></div>
+              <div class="yaml-line"><span class="yaml-key">role:</span> <span class="yaml-str">Student & Aspiring Data Scientist</span></div>
+              <div class="yaml-line"><span class="yaml-key">motto:</span> <span class="yaml-str">Building with code & learning by doing</span></div>
+              <div class="yaml-line blank"></div>
+              <div class="yaml-line"><span class="yaml-key">currently_learning:</span></div>
+              <div class="yaml-line indent"><span class="yaml-bullet">-</span> <span class="yaml-val">Data Science</span></div>
+              <div class="yaml-line indent"><span class="yaml-bullet">-</span> <span class="yaml-val">Data Structures & Algorithms (Java)</span></div>
+              <div class="yaml-line blank"></div>
+              <div class="yaml-line"><span class="yaml-key">building_with:</span></div>
+              <div class="yaml-line indent"><span class="yaml-bullet">-</span> <span class="yaml-val">Python</span></div>
+              <div class="yaml-line indent"><span class="yaml-bullet">-</span> <span class="yaml-val">Java</span></div>
+              <div class="yaml-line blank"></div>
+              <div class="yaml-line"><span class="yaml-key">goals:</span></div>
+              <div class="yaml-line indent"><span class="yaml-bullet">-</span> <span class="yaml-val">Master DSA problem-solving</span></div>
+              <div class="yaml-line indent"><span class="yaml-bullet">-</span> <span class="yaml-val">Build real-world Data Science & AI projects</span></div>
+              <div class="yaml-line indent"><span class="yaml-bullet">-</span> <span class="yaml-val">Contribute to open source</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACTS SECTION ===== -->
+  <section class="contacts" id="contacts">
+    <div class="container">
+      <div class="section-title">
+        <h2><span>#</span>contacts</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="contact-hero-grid">
+        <!-- Left Side: Large Statement & Direct Links -->
+        <div class="contact-left reveal">
+          <span class="contact-subtag">/// CONTACT</span>
+          <h2 class="contact-big-title">IF YOU HAVE <br><span class="accent-italic">something for me?</span></h2>
+          
+          <a href="mailto:sameerkumarsingh@psit.ac.in" class="contact-main-email">
+            sameerkumarsingh@psit.ac.in
+          </a>
+
+          <div class="contact-links-table">
+            <a href="https://github.com/hotshot0104" target="_blank" class="contact-row">
+              <span class="row-label">GitHub ↗</span>
+              <span class="row-val">github.com/hotshot0104</span>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="contact-row">
+              <span class="row-label">LinkedIn ↗</span>
+              <span class="row-val">Sameer Kumar Singh</span>
+            </a>
+            <a href="mailto:sameerkumarsingh@psit.ac.in" class="contact-row">
+              <span class="row-label">Email ↗</span>
+              <span class="row-val">sameerkumarsingh@psit.ac.in</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Side: Terminal Window Status Card & Direct Form -->
+        <div class="contact-right reveal delay-2">
+          <div class="terminal-card contact-status-card">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="tdot red"></span>
+                <span class="tdot yellow"></span>
+                <span class="tdot green"></span>
+              </div>
+              <span class="terminal-filename">contact_status.yaml</span>
+            </div>
+            <div class="terminal-body">
+              <div class="yaml-line">
+                <span class="yaml-key">status:</span>
+              </div>
+              <div class="yaml-line indent">
+                <span class="status-pulse-dot"></span> <span class="yaml-val" style="color: #43B581; font-weight: 600;">Available for opportunities</span>
+              </div>
+              
+              <div class="yaml-line blank"></div>
+              <div class="yaml-line">
+                <span class="yaml-key">location:</span>
+              </div>
+              <div class="yaml-line indent">
+                <span class="yaml-str">Kanpur, Uttar Pradesh (PSIT)</span>
+              </div>
+
+              <div class="yaml-line blank"></div>
+              <div class="yaml-line">
+                <span class="yaml-key">focus:</span>
+              </div>
+              <div class="yaml-line indent">
+                <span class="yaml-str">Data Science · Machine Learning · Java DSA</span>
+              </div>
+
+              <div class="yaml-line blank"></div>
+              <div class="yaml-line">
+                <span class="yaml-key">open_to:</span>
+              </div>
+              <div class="yaml-line indent">
+                <span class="yaml-str">Remote · India · Hybrid</span>
+              </div>
+
+              <div class="yaml-line blank"></div>
+              <div class="yaml-line">
+                <span class="yaml-key">philosophy:</span>
+              </div>
+              <div class="yaml-line indent">
+                <span class="yaml-str">Building with code &amp; learning by doing</span>
+              </div>
+
+              <div class="yaml-line blank"></div>
+              <div class="contact-italic-note">
+                let's build something crzyy ;)
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Terminal Message Form -->
+          <form class="terminal-card contact-form-card" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="tdot red"></span>
+                <span class="tdot yellow"></span>
+                <span class="tdot green"></span>
+              </div>
+              <span class="terminal-filename">send_message.sh</span>
+            </div>
+            <div class="terminal-body">
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Write your message..." rows="4" required></textarea>
+              </div>
+              <button type="submit" class="matrix-btn btn-highlight" style="width: 100%; text-align: center; justify-content: center; cursor: none !important;">
+                SEND MESSAGE ↗
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-left">
+          <div class="footer-name">
+            <div class="logo-icon"></div>
+            Sameer Kumar Singh
+          </div>
+          <div class="footer-email">sameerkumarsingh@psit.ac.in</div>
+          <div class="footer-tagline">Student &amp; Aspiring Data Scientist · Learning ML</div>
+        </div>
+        <div class="footer-right">
+          <h4>Social Media</h4>
+          <div class="footer-socials">
+            <a href="https://github.com/hotshot0104" target="_blank" aria-label="GitHub">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.762-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        &copy; 2026 Sameer Kumar Singh. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ===== LOADING SCREEN =====
+    window.addEventListener('load', () => {
+      const loader = document.getElementById('loader-screen');
+      setTimeout(() => {
+        if (loader) {
+          loader.classList.add('fade-out');
+          setTimeout(() => { loader.style.display = 'none'; }, 600);
+        }
+      }, 1200);
+    });
+
+    // ===== CUSTOM CURSOR TRACKING (Zero Glitch Centering) =====
+    const cursorDot = document.getElementById('cursor-dot');
+    const cursorRing = document.getElementById('cursor-ring');
+    
+    let mouseX = -100, mouseY = -100;
+    let ringX = -100, ringY = -100;
+
+    window.addEventListener('mousemove', (e) => {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+      if (cursorDot) {
+        cursorDot.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;
+      }
+    });
+
+    function animateCursor() {
+      ringX += (mouseX - ringX) * 0.22;
+      ringY += (mouseY - ringY) * 0.22;
+      if (cursorRing) {
+        cursorRing.style.transform = `translate3d(${ringX}px, ${ringY}px, 0)`;
+      }
+      requestAnimationFrame(animateCursor);
+    }
+    animateCursor();
+
+    // Hover scale effect for interactive elements
+    document.addEventListener('mouseover', (e) => {
+      if (e.target.closest('a, button, .project-card, .matrix-btn, .skill-card, .terminal-card, input, textarea')) {
+        if (cursorRing) cursorRing.classList.add('cursor-hover');
+      }
+    });
+    document.addEventListener('mouseout', (e) => {
+      if (e.target.closest('a, button, .project-card, .matrix-btn, .skill-card, .terminal-card, input, textarea')) {
+        if (cursorRing) cursorRing.classList.remove('cursor-hover');
+      }
+    });
+
+    // ===== HEADER SCROLL EFFECT =====
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+
+    // ===== MOBILE MENU =====
+    function toggleMenu() {
+      const burger = document.getElementById('burger');
+      const mobileNav = document.getElementById('mobileNav');
+      burger.classList.toggle('active');
+      mobileNav.classList.toggle('active');
+      document.body.style.overflow = mobileNav.classList.contains('active') ? 'hidden' : '';
+    }
+
+    function closeMenu() {
+      const burger = document.getElementById('burger');
+      const mobileNav = document.getElementById('mobileNav');
+      burger.classList.remove('active');
+      mobileNav.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    // ===== SCROLL REVEAL =====
+    const revealElements = document.querySelectorAll('.reveal');
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.15,
+      rootMargin: '0px 0px -50px 0px'
+    });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // ===== SMOOTH SCROLL for nav links =====
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+        e.preventDefault();
+        const targetEl = document.querySelector(targetId);
+        if (targetEl) {
+          targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
