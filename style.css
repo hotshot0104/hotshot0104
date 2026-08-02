@@ -278,6 +278,7 @@ img {
   min-height: 100vh;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .hero .container {
@@ -290,6 +291,7 @@ img {
 
 .hero-content {
   max-width: 540px;
+  min-width: 0;
 }
 
 .hero-content h1 {
@@ -335,6 +337,8 @@ img {
   justify-content: center;
   flex: 1;
   margin-left: auto;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .hero-illustration {
@@ -587,6 +591,7 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
+  width: 100%;
 }
 
 .project-card {
@@ -831,7 +836,8 @@ img {
   flex-shrink: 0;
   position: relative;
   width: 340px;
-  height: 380px;
+  max-width: 100%;
+  min-height: 300px;
 }
 
 /* Abstract visual replacing photo */
@@ -1190,7 +1196,7 @@ img {
 
   .hero .container {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
 
   .hero-content {
@@ -1199,6 +1205,11 @@ img {
 
   .hero-right {
     width: 100%;
+    margin-left: 0;
+  }
+
+  .hero-matrix-card {
+    max-width: 100%;
   }
 
   .hero-geo {
@@ -1220,6 +1231,12 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .projects-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
   .skills-content {
     flex-direction: column;
   }
@@ -1234,7 +1251,7 @@ img {
 
   .about-visual {
     width: 100%;
-    height: 250px;
+    min-height: auto;
   }
 
   .contacts-content {
@@ -1248,6 +1265,15 @@ img {
 
   .quote-box blockquote {
     font-size: 20px;
+  }
+
+  .contact-big-title {
+    font-size: 34px;
+  }
+
+  .contact-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
   }
 }
 
@@ -1550,12 +1576,15 @@ body::before {
   align-items: center;
   flex-wrap: wrap;
   gap: 16px;
+  margin-top: 16px;
 }
 
 .matrix-location {
   color: #E54D32;
   font-size: 13px;
   font-family: var(--font-mono);
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .matrix-btns {
@@ -1630,78 +1659,7 @@ body::before {
   100% { transform: translateX(-50%); }
 }
 
-/* ===== TERMINAL YAML CARD (Image 5 style) ===== */
-.terminal-card {
-  background: #121419;
-  border: 1px solid var(--border-muted);
-  border-radius: 6px;
-  overflow: hidden;
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4);
-  font-family: var(--font-mono);
-  width: 100%;
-}
-
-.terminal-header {
-  background: #1A1C23;
-  padding: 12px 18px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  border-bottom: 1px solid var(--border-muted);
-}
-
-.terminal-dots {
-  display: flex;
-  gap: 6px;
-}
-
-.tdot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-}
-
-.tdot.red { background: #FF5F56; }
-.tdot.yellow { background: #FFBD2E; }
-.tdot.green { background: #27C93F; }
-
-.terminal-filename {
-  color: var(--text-muted);
-  font-size: 12px;
-}
-
-.terminal-body {
-  padding: 24px 28px;
-  line-height: 1.8;
-  font-size: 13px;
-}
-
-.yaml-line {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}
-
-.yaml-line.indent {
-  padding-left: 24px;
-}
-
-.yaml-line.blank {
-  height: 12px;
-}
-
-.yaml-key {
-  color: #43B581;
-  font-weight: 600;
-}
-
-.yaml-str {
-  color: #F2F3F5;
-}
-
-.yaml-val {
-  color: #DBDEE1;
-}
+/* ===== TERMINAL YAML CARD (Image 5 style) — REMOVED DUPLICATE, see unified below ===== */
 
 /* ===== GLITCH FREE HARDWARE-ACCELERATED CURSOR ===== */
 html, body, a, button, input, select, textarea, .project-card, .matrix-btn, .skill-card, .terminal-card {
@@ -1753,7 +1711,7 @@ html, body, a, button, input, select, textarea, .project-card, .matrix-btn, .ski
   border-color: var(--accent);
 }
 
-/* ===== UNIFIED TERMINAL WINDOW THEME (About Me Card Style) ===== */
+/* ===== UNIFIED TERMINAL WINDOW THEME ===== */
 .terminal-card {
   background: #121419;
   border: 1px solid var(--border-muted);
@@ -1762,6 +1720,7 @@ html, body, a, button, input, select, textarea, .project-card, .matrix-btn, .ski
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4);
   font-family: var(--font-mono);
   width: 100%;
+  max-width: 100%;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1782,6 +1741,7 @@ html, body, a, button, input, select, textarea, .project-card, .matrix-btn, .ski
 .terminal-dots {
   display: flex;
   gap: 6px;
+  flex-shrink: 0;
 }
 
 .tdot {
@@ -1798,6 +1758,50 @@ html, body, a, button, input, select, textarea, .project-card, .matrix-btn, .ski
   color: var(--text-muted);
   font-size: 12px;
   font-family: var(--font-mono);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.terminal-body {
+  padding: 24px 28px;
+  line-height: 1.8;
+  font-size: 13px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.yaml-line {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.yaml-line.indent {
+  padding-left: 24px;
+}
+
+.yaml-line.blank {
+  height: 12px;
+}
+
+.yaml-key {
+  color: #43B581;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.yaml-str {
+  color: #F2F3F5;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.yaml-val {
+  color: #DBDEE1;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .terminal-card-inner {
@@ -1927,11 +1931,7 @@ html, body, a, button, input, select, textarea, .project-card, .matrix-btn, .ski
   font-weight: 600;
 }
 
-@media (max-width: 768px) {
-  .modern-skills-grid {
-    grid-template-columns: 1fr;
-  }
-}
+/* modern-skills-grid mobile override moved to main 768px breakpoint */
 
 
 .yaml-bullet {
@@ -1961,12 +1961,7 @@ html, body, a, button, input, select, textarea, .project-card, .matrix-btn, .ski
   }
 }
 
-@media (max-width: 768px) {
-  .contact-terminals-parallel {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-}
+/* contact-terminals-parallel mobile override moved to main 768px breakpoint */
 
 
 
@@ -1988,6 +1983,8 @@ html, body, a, button, input, select, textarea, .project-card, .matrix-btn, .ski
   margin-bottom: 24px;
   font-family: var(--font-mono);
   text-transform: uppercase;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .contact-big-title .accent-italic {
@@ -2153,37 +2150,6 @@ html, body, a, button, input, select, textarea, .project-card, .matrix-btn, .ski
   letter-spacing: 1px;
 }
 
-/* Media Queries for Responsive Layouts */
-@media (max-width: 968px) {
-  .hero .container {
-    flex-direction: column;
-    text-align: left;
-    gap: 32px;
-  }
-
-  .hero-content {
-    max-width: 100%;
-  }
-
-  .hero-right {
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .hero-matrix-card {
-    max-width: 100%;
-  }
-
-  .contact-hero-grid {
-    grid-template-columns: 1fr;
-    gap: 36px;
-  }
-
-  .contact-big-title {
-    font-size: 34px;
-  }
-}
-
 @media (max-width: 768px) {
   :root {
     --section-gap: 64px;
@@ -2222,6 +2188,8 @@ html, body, a, button, input, select, textarea, .project-card, .matrix-btn, .ski
   .hero-actions .btn {
     width: 100%;
     text-align: center;
+    justify-content: center;
+    display: flex;
   }
 
   .terminal-card {
@@ -2237,20 +2205,21 @@ html, body, a, button, input, select, textarea, .project-card, .matrix-btn, .ski
     font-size: 12px;
   }
 
+  .terminal-card-inner {
+    padding: 16px;
+  }
+
+  .yaml-line {
+    font-size: 12px;
+  }
+
   .yaml-line.indent {
     padding-left: 12px;
   }
 
-  .hero-matrix-card .matrix-row {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 2px;
-    padding: 8px 10px;
-  }
-
-  .hero-matrix-card .matrix-label {
-    width: 100%;
-    font-size: 11px;
+  .yaml-str,
+  .yaml-val {
+    font-size: 12px;
   }
 
   .matrix-footer {
@@ -2271,9 +2240,20 @@ html, body, a, button, input, select, textarea, .project-card, .matrix-btn, .ski
     text-align: center;
   }
 
+  .matrix-location {
+    font-size: 11px;
+    text-align: center;
+  }
+
   .projects-grid {
     grid-template-columns: 1fr;
     gap: 20px;
+  }
+
+  .projects-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
   }
 
   .modern-skills-grid {
@@ -2288,6 +2268,7 @@ html, body, a, button, input, select, textarea, .project-card, .matrix-btn, .ski
 
   .section-title h2 {
     font-size: 24px;
+    white-space: normal;
   }
 
   .section-title .line {
@@ -2309,12 +2290,26 @@ html, body, a, button, input, select, textarea, .project-card, .matrix-btn, .ski
     padding: 10px 14px;
   }
 
+  .about-content {
+    gap: 40px;
+  }
+
+  .about-visual {
+    width: 100%;
+    min-height: auto;
+  }
+
+  .about-visual .terminal-card {
+    width: 100%;
+  }
+
   .contact-big-title {
     font-size: 26px;
+    letter-spacing: -0.5px;
   }
 
   .contact-main-email {
-    font-size: 16px;
+    font-size: 14px;
     word-break: break-all;
     margin-bottom: 24px;
   }
@@ -2323,6 +2318,21 @@ html, body, a, button, input, select, textarea, .project-card, .matrix-btn, .ski
     flex-direction: column;
     align-items: flex-start;
     gap: 4px;
+    padding: 12px 0;
+  }
+
+  .contact-row .row-val {
+    font-size: 12px;
+    word-break: break-all;
+  }
+
+  .contact-terminals-parallel {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .contact-left {
+    max-width: 100% !important;
   }
 
   .footer-content {
@@ -2346,23 +2356,21 @@ html, body, a, button, input, select, textarea, .project-card, .matrix-btn, .ski
   .footer-right h4 {
     font-size: 20px;
   }
-}
 
-@media (max-width: 480px) {
-  .container {
-    padding: 0 14px;
+  /* Ticker spacing */
+  .ticker-banner {
+    margin: 20px 0 40px;
+    padding: 12px 0;
   }
 
-  .hero-content h1 {
-    font-size: 21px;
+  .ticker-track span {
+    font-size: 11px;
+    letter-spacing: 1.5px;
   }
 
-  .section-title h2 {
-    font-size: 20px;
-  }
-
-  .contact-big-title {
-    font-size: 22px;
+  /* Skill tags */
+  .skill-card-header h3 {
+    font-size: 14px;
   }
 
   .skill-tags {
@@ -2371,7 +2379,81 @@ html, body, a, button, input, select, textarea, .project-card, .matrix-btn, .ski
 
   .skill-tag {
     font-size: 11px;
+    padding: 5px 10px;
+  }
+
+  /* Project card text */
+  .project-card .card-body h3 {
+    font-size: 18px;
+  }
+
+  .project-card .card-body p {
+    font-size: 13px;
+  }
+
+  .card-tech {
+    font-size: 12px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 14px;
+  }
+
+  .hero {
+    padding-top: 90px;
+    padding-bottom: 40px;
+  }
+
+  .hero-content h1 {
+    font-size: 20px;
+  }
+
+  .hero-content p {
+    font-size: 13px;
+  }
+
+  .section-title h2 {
+    font-size: 18px;
+  }
+
+  .contact-big-title {
+    font-size: 20px;
+  }
+
+  .contact-main-email {
+    font-size: 13px;
+  }
+
+  .skill-tags {
+    gap: 5px;
+  }
+
+  .skill-tag {
+    font-size: 10px;
     padding: 4px 8px;
+  }
+
+  .matrix-btn {
+    padding: 8px 14px;
+    font-size: 11px;
+  }
+
+  .btn-sm {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .loader-bg-initials {
+    font-size: 120px;
+  }
+
+  .loader-fg-initials {
+    font-size: 38px;
   }
 }
 
