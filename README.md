@@ -146,13 +146,7 @@ goals:
   <img src="https://raw.githubusercontent.com/hotshot0104/hotshot0104/output/profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive Time" height="180"/>
 </div>
 
-<br/>
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=hotshot0104&theme=tokyonight&hide_border=true&background=0d1117&stroke=7aa2f7&ring=7aa2f7&fire=ff9e64&currStreakLabel=a9b1d6&sideLabels=a9b1d6&dates=565f89" alt="GitHub Streak Stats" />
-</div>
-
-<br/>
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=hotshot0104&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=a9b1d6&line=7aa2f7&point=ff9e64&area=true&area_color=7aa2f7" alt="Activity Graph" width="95%"/>
