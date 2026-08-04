@@ -127,6 +127,14 @@ goals:
 ## GitHub Stats
 
 <div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=hotshot0104&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=ff9e64&text_color=a9b1d6&ring_color=7aa2f7" alt="GitHub Stats" height="180"/>
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hotshot0104&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&text_color=a9b1d6" alt="Top Languages" height="180"/>
+</div>
+
+<br/>
+
+<div align="center">
   <img src="https://streak-stats.demolab.com/?user=hotshot0104&theme=tokyonight&hide_border=true&background=0d1117&stroke=7aa2f7&ring=7aa2f7&fire=ff9e64&currStreakLabel=a9b1d6&sideLabels=a9b1d6&dates=565f89" alt="GitHub Streak Stats" />
 </div>
 
