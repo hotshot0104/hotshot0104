@@ -127,23 +127,29 @@ goals:
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hotshot0104&theme=tokyonight" alt="Profile Details" width="95%"/>
+  <img src="https://raw.githubusercontent.com/hotshot0104/hotshot0104/output/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" width="95%"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hotshot0104&theme=tokyonight" alt="GitHub Stats" height="180"/>
+  <img src="https://raw.githubusercontent.com/hotshot0104/hotshot0104/output/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per Language" height="180"/>
   &nbsp;&nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=hotshot0104&theme=tokyonight" alt="Top Languages" height="180"/>
+  <img src="https://raw.githubusercontent.com/hotshot0104/hotshot0104/output/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most Commit Language" height="180"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=hotshot0104&theme=tokyonight&utcOffset=5.5" alt="Productive Time" height="180"/>
+  <img src="https://raw.githubusercontent.com/hotshot0104/hotshot0104/output/profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub Stats" height="180"/>
   &nbsp;&nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=hotshot0104&theme=tokyonight" alt="Most Commit Language" height="180"/>
+  <img src="https://raw.githubusercontent.com/hotshot0104/hotshot0104/output/profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive Time" height="180"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=hotshot0104&theme=tokyonight&hide_border=true&background=0d1117&stroke=7aa2f7&ring=7aa2f7&fire=ff9e64&currStreakLabel=a9b1d6&sideLabels=a9b1d6&dates=565f89" alt="GitHub Streak Stats" />
 </div>
 
 <br/>
