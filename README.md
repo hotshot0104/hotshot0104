@@ -135,7 +135,7 @@ goals:
 <br/>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=hotshot0104&theme=tokyonight&hide_border=true&background=0d1117&stroke=7aa2f7&ring=7aa2f7&fire=ff9e64&currStreakLabel=a9b1d6&sideLabels=a9b1d6&dates=565f89" alt="GitHub Streak Stats" />
+  <img src="https://streak-stats.demolab.com/?user=hotshot0104&theme=tokyonight&hide_border=true&background=0d1117&stroke=7aa2f7&ring=7aa2f7&fire=ff9e64&currStreakLabel=a9b1d6&sideLabels=a9b1d6&dates=565f89&mode=daily&v=2" alt="GitHub Streak Stats" />
 </div>
 
 <br/>
