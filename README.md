@@ -127,23 +127,23 @@ goals:
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/hotshot0104/hotshot0104/output/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" width="95%"/>
+  <img src="https://raw.githubusercontent.com/hotshot0104/hotshot0104/main/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" width="95%"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/hotshot0104/hotshot0104/output/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per Language" height="180"/>
+  <img src="https://raw.githubusercontent.com/hotshot0104/hotshot0104/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per Language" height="180"/>
   &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/hotshot0104/hotshot0104/output/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most Commit Language" height="180"/>
+  <img src="https://raw.githubusercontent.com/hotshot0104/hotshot0104/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most Commit Language" height="180"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/hotshot0104/hotshot0104/output/profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub Stats" height="180"/>
+  <img src="https://raw.githubusercontent.com/hotshot0104/hotshot0104/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub Stats" height="180"/>
   &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/hotshot0104/hotshot0104/output/profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive Time" height="180"/>
+  <img src="https://raw.githubusercontent.com/hotshot0104/hotshot0104/main/profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive Time" height="180"/>
 </div>
 
 
