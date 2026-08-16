@@ -15,17 +15,32 @@ Building intelligent systems with clean architecture, data science, and scalable
 </p>
 
 
-<h2 align="center">🚀 About Me</h2>
+<h2 align="center">🧑‍💻 About Me</h2>
 
 <img align="right" src="./assets/ichigo.png" width="240" alt="Bleach Illustration"/>
 
-**Sameer**, Here — a Computer Science undergrad at **PSIT, Kanpur** focused on **Data Science**, **Machine Learning**, and **Data Structures & Algorithms in Java**.
-
-I enjoy building data-driven systems, intelligent agents with Python, and continuously sharpening my algorithmic problem-solving skills.
-
-Currently, I'm mastering **Data Structures & Algorithms in Java (100 Days of DSA)**, while learning **Machine Learning, Deep Learning, and AI Agents**.
-
-My goal is simple: write clean code, build reliable software, and grow into a software engineer who creates systems that last.
+```python
+class Sameer:
+    role = "B.Tech Data Science Student"
+    college = "PSIT, Kanpur"
+    interests = [
+        "Data Science",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Problem Solving"
+    ]
+    currently_learning = [
+        "Python",
+        "Machine Learning",
+        "Data Analysis",
+        "DSA in Java"
+    ]
+    building = [
+        "AI/ML Projects",
+        "Data Science Projects",
+        "Real-World Problem Solutions"
+    ]
+```
 
 <br clear="right"/>
 
