@@ -48,7 +48,15 @@ My goal is simple: write clean code, build reliable software, and grow into a so
 <h2 align="center">💻 Tech Stack</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,c,mysql,pytorch,tensorflow,opencv,sklearn,git,docker" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=python,java,git,github,vscode" alt="Tech Stack" />
+</p>
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="42" alt="NumPy" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="42" alt="Pandas" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="42" alt="Jupyter" />
 </p>
 
 <h2 align="center">🔥 Featured Projects</h2>
