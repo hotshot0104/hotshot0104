@@ -17,7 +17,7 @@ Building intelligent systems with clean architecture, data science, and scalable
 
 <h2 align="center">🚀 About Me</h2>
 
-<img align="right" src="./assets/astro.png" width="280" alt="Developer Illustration"/>
+<img align="right" src="./assets/ichigo.png" width="240" alt="Bleach Illustration"/>
 
 **Sameer**, Here — a Computer Science undergrad at **PSIT, Kanpur** focused on **Data Science**, **Machine Learning**, and **Data Structures & Algorithms in Java**.
 
