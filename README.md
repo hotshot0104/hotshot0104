@@ -21,7 +21,7 @@ Building intelligent systems with clean architecture, data science, and scalable
 
 ```python
 class Sameer:
-    role = "B.Tech Data Science Student"
+    role = "B.Tech Information Technology Student"
     college = "PSIT, Kanpur"
     interests = [
         "Data Science",
