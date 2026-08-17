@@ -17,7 +17,7 @@ Building intelligent systems with clean architecture, data science, and scalable
 
 <h2 align="center">🧑‍💻 About Me</h2>
 
-<img align="right" src="./assets/ichigo.png" width="240" alt="Bleach Illustration"/>
+<img align="right" src="./assets/ichigo.png" width="230" alt="Bleach Illustration"/>
 
 ```python
 class Sameer:
